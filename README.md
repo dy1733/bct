@@ -1,2 +1,5 @@
 # bct
-방송 하이라이트 출력 프로그램
+
+cd code
+python main.py
+
