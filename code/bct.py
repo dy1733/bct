@@ -132,18 +132,19 @@ class chatting_graph():
         filename = './IO/result/chattingtraffic_' + str(sen) + '.png'
 
         plt.savefig(filename, bbox_inches='tight', pad_inches=0)
-        plt.show()
+        # plt.show()
 
         
     def onebuttonrun(self):
-        self.detectHighlight(20, 5)
-        self.printGraph(10, 7, 3, 20)
+        self.detectHighlight(25, 5)
+        self.printGraph(10, 4, 2, 25)
 
         self.detectHighlight(15, 5)
-        self.printGraph(10, 7, 3, 15)
+        self.printGraph(10, 4, 2, 15)
 
         self.detectHighlight(10, 5)
-        self.printGraph(10, 7, 3, 10)
+        self.printGraph(10, 4, 2, 10)
 
         self.detectHighlight(5, 5)
-        self.printGraph(10, 6, 3, 5)
+        self.printGraph(10, 4, 2, 5)
+        print("end")
